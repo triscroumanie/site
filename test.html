@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les TRISC en Roumanie</title>
+    <link rel="shortcut icon" href="assets/img/Flag_of_Romania.ico" type="image/x-icon">
+    <style>
+        /* Reset et styles de base */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #e7d9bf;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+            border-radius: 0 0 50px 50px;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            width: 95%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 10px;
+        }
+
+        /* Galerie responsive */
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .gallery-item {
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .gallery-item h3 {
+            text-align: center;
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        /* Media Queries pour tablette et ordinateur */
+        @media (min-width: 600px) {
+            .gallery {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            }
+        }
+
+        @media (min-width: 900px) {
+            .gallery {
+                grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jour 1 du Voyage</h1>
+    </header>
+    <div class="container">
+        <div class="gallery">
+            <!-- Exemple de section pour une image -->
+            <div class="gallery-item">
+                <img src="assets/img/J1/lycee roumain.jpg" alt="Entrée du lycée">
+                <h3>Découverte du lycée</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/img/J1/plaque.jpg" alt="Plaque">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/img/J1/photo de classe².jpg" alt="Photo de classe avec les correspondants roumains">
+                <h3>Photo de classe avec les correspondants roumains</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/img/J1/lycee profs.jpg" alt="Accueil des élèves français par la proviseure">
+                <h3>Accueil des élèves français par la proviseure</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/img/J1/classe groupes salle.jpg" alt="Accueil des élèves français par la proviseure">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/img/J1/groupe classe maison.jpg" alt="Visite de la maison de l'écrivain 'Ion GREANGÁ'">
+                <h3>Visite de la maison de l'écrivain "Ion GREANGÁ"</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/img/J1/ecrivain.jpg" alt="Buste de l'écrivain">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/img/J1/visite maison ecrivain.jpg" alt="Visite de la maison de l'écrivain 'Ion GREANGÁ'">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/img/J1/musee tradition.jpg" alt="Visite d'un musée sur la région et ses traditions">
+                <h3>Visite d'un musée sur la région et ses traditions</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/img/J1/musee traditionnel.jpg" alt="Visite d'un musée sur la région et ses traditions">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
