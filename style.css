@@ -34,7 +34,8 @@ header {
     border-radius: 5px;
 }
 .day-link:hover {
-    background: #555;
+    opacity: 0.8;
+    transition: all 0.3s;
 }
 
 .video-banner {
